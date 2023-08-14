@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #4C4C4C;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headingFont {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.logo {
+    margin: 10px 40px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 3px 30px;
+}
+
+.navbar ul li a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border-color: white;
+    border-style: solid;
+    transition: color 2s;
+}
+
+.MainHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 280px;
+    background-image: url(bg1.jpg);
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.MainHead h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    color: white;
+}
+
+.MainHead p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+}
+
+.OrderNow {
+    cursor: pointer;
+    font-size: 1.3rem;
+    background-color: red;
+    border-color: white;
+    padding: 5px 25px;
+    border-radius: 6px;
+    border-style: solid;
+    color: white;
+}
+
+.headingFont {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.items {
+    display: flex;
+}
+
+.itemz {
+    padding: 10px 20px;
+    margin: 20px 70px;
+    border-color: rgb(205, 86, 86);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #F2F2F2;
+
+}
+
+.itemz h2 {
+    font-size: 1.4rem;
+}
+
+.itemz h2,
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagesFood {
+    height: 100px;
+    margin-left: 30px;
+}
+
+.OurClients {
+    margin-top: 50px;
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/egor-myznik-kWrOdfivfEw-unsplash.jpg);
+    background-position: top;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.OurClients h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+
+}
+
+.clents {
+    height: 150px;
+}
+
+.images {
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.last {
+    margin-top: -20px;
+    background-image: url(contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastHeading {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4.5rem;
+
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.contactBox input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.contactBox form {
+    width: 90%;
+}
+
+@media (max-width:1015px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .logo img {
+        height: 40px;
+    }
+
+    .navbar ul li a {
+        font-size: 1.5rem;
+    }
+
+    .MainHead .MyOnline {
+        font-size: 2rem;
+    }
+
+    .MainHead p {
+        font-size: 1rem;
+    }
+
+    .MainHead .OrderNow {
+        padding: 3px 15px;
+        margin-top: 20px;
+    }
+
+    .headingFont {
+        font-size: 2rem;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+
+
+    .OurClients h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .clents {
+        height: 80px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:746px) {
+
+
+
+    .navbar .logo img {
+        height: 30px;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+    }
+
+    .MainHead .MyOnline {
+        font-size: 1rem;
+    }
+
+    .MainHead {
+        padding: 10px 60px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .MainHead p {
+        font-size: 0.8rem;
+        width: 200px;
+    }
+
+    .MainHead .OrderNow {
+        padding: 3px 15px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .headingFont {
+        font-size: 2rem;
+    }
+
+    .itemz {
+        padding: 5px 0px;
+        margin: 20px 30px;
+    }
+
+
+    .OurClients h1 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .itemz img {
+        margin-left: 250px;
+    }
+
+    .itemz h2 {
+        margin-left: 20px;
+    }
+
+    .clents {
+        height: 70px;
+    }
+
+}
